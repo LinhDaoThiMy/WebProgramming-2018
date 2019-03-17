@@ -1,0 +1,33 @@
+<html>
+<body>
+    <table bgcolor="#81F7D8" border="2px" cellspacing="0px" cellpadding="10px">
+        <tr>
+            <td colspan="4"><input id="Result" type="text" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="2" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="3" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="+" onclick="Result.value+=this.value" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="5" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="6" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="-" onclick="Result.value+=this.value" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="8" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="9" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="*" onclick="Result.value+=this.value" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="." onclick="Result.value+=this.value" /></td>
+            <td><input type="button" value="/" onclick="Result.value+=this.value" /></td>
+            <td><input id="equal" type="button" value="=" onclick="Result.value=eval(Result.value)" /></td>
+        </tr>
+    </table>
+</body>
+</html>
